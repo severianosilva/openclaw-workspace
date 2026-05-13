@@ -1,0 +1,7 @@
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\intro_script_20260512_132201.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\chapter_script_20260512_132201_0.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\chapter_script_20260512_132201_1.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\chapter_script_20260512_132201_2.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\chapter_script_20260512_132201_3.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\chapter_script_20260512_132201_4.mp4'
+file 'C:\Users\User\.openclaw\workspace\youtube-agents\workspace\assets\outro_script_20260512_132201.mp4'

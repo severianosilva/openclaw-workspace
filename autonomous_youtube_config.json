@@ -1,0 +1,69 @@
+{
+  "name": "YouTube Autonomous Agent",
+  "version": "1.0",
+  "description": "Sistema 100% autônomo - zero intervenção humana",
+  "steps": [
+    {
+      "step": 1,
+      "name": "generate_script",
+      "script": "python youtube_script_agent.py",
+      "input": "tema",
+      "output": "roteiro.json"
+    },
+    {
+      "step": 2,
+      "name": "generate_audio",
+      "script": "gtts_integration.py",
+      "input": "roteiro.json",
+      "output": "audio.mp3"
+    },
+    {
+      "step": 3,
+      "name": "generate_images",
+      "script": "image_generator.py",
+      "input": "roteiro.json",
+      "output": "images/"
+    },
+    {
+      "step": 4,
+      "name": "render_video",
+      "script": "autonomous_render.py",
+      "input": "audio.mp3 + images/",
+      "output": "video_bruto.mp4"
+    },
+    {
+      "step": 5,
+      "name": "edit_video",
+      "script": "youtube_post_agent.py",
+      "input": "video_bruto.mp4",
+      "output": "video_final.mp4"
+    },
+    {
+      "step": 6,
+      "name": "upload_youtube",
+      "script": "youtube_uploader.py",
+      "input": "video_final.mp4",
+      "output": "link_youtube"
+    }
+  ],
+  "schedule": {
+    "frequency": "daily",
+    "time": "09:00",
+    "topics": [
+      "finanças",
+      "tecnologia",
+      "educação",
+      "saúde"
+    ]
+  },
+  "autonomous_features": [
+    "Auto-geração de roteiros com IA",
+    "Narração automática com TTS",
+    "Imagens automáticas via APIs gratuitas",
+    "Renderização no Google Colab via API",
+    "Upload automático para YouTube",
+    "Thumbnail automática",
+    "SEO automático",
+    "Postagem programada"
+  ]
+}

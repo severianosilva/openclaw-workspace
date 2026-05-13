@@ -1,0 +1,14 @@
+{"timestamp": "2026-02-27T20:00:12.502488", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-02-27T20:00:13.967234", "level": "INFO", "message": "Credenciais WhatsApp verificadas: 1 dispositivo(s) autorizado(s)", "details": {}}
+{"timestamp": "2026-02-27T20:00:14.216231", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-02-27T20:00:14.222582", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-02-27T20:00:17.317550", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-02-27T20:00:17.318262", "level": "INFO", "message": "\u2705 Todas as verifica\u00e7\u00f5es de seguran\u00e7a passaram", "details": {}}
+{"timestamp": "2026-02-27T20:00:17.318660", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}
+{"timestamp": "2026-02-27T22:00:05.909110", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-02-27T22:00:05.940833", "level": "INFO", "message": "Credenciais WhatsApp verificadas: 1 dispositivo(s) autorizado(s)", "details": {}}
+{"timestamp": "2026-02-27T22:00:05.951862", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-02-27T22:00:05.954908", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-02-27T22:00:07.310848", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-02-27T22:00:07.312144", "level": "INFO", "message": "\u2705 Todas as verifica\u00e7\u00f5es de seguran\u00e7a passaram", "details": {}}
+{"timestamp": "2026-02-27T22:00:07.312697", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}

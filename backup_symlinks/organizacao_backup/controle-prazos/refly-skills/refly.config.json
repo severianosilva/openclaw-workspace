@@ -1,0 +1,23 @@
+{
+  "name": "Sistema Jurídico Automatizado - Skills",
+  "description": "Coleção de skills para automação de tarefas jurídicas",
+  "version": "1.0.0",
+  "skillsDirectory": "./skills",
+  "development": {
+    "autoReload": true,
+    "debug": true
+  },
+  "production": {
+    "autoReload": false,
+    "debug": false
+  },
+  "integrations": {
+    "models": {
+      "default": "qwen-portal/coder-model"
+    },
+    "storage": {
+      "type": "local",
+      "path": "./data"
+    }
+  }
+}

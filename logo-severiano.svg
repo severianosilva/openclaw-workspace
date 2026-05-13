@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo branco -->
+  <rect width="500" height="200" fill="#FFFFFF" rx="8"/>
+  
+  <!-- Símbolo balança estilizada -->
+  <g transform="translate(60,60)">
+    <!-- Base da balança -->
+    <path d="M50 20 L50 50" stroke="#C4A484" stroke-width="3"/>
+    <!-- Braço da balança -->
+    <path d="M30 20 L70 20" stroke="#1A1A1A" stroke-width="2"/>
+    <!-- Pratos -->
+    <circle cx="30" cy="20" r="15" fill="#C4A484" stroke="#1A1A1A" stroke-width="1"/>
+    <circle cx="70" cy="20" r="15" fill="#C4A484" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Texto -->
+  <text x="120" y="55" font-family="Playfair Display, serif" font-size="24" fill="#1A1A1A" font-weight="bold">
+    Severiano Silva Advocacia
+  </text>
+  <text x="120" y="85" font-family="Lato, sans-serif" font-size="14" fill="#666666">
+    Direito Especializado
+  </text>
+  <text x="120" y="110" font-family="Lato, sans-serif" font-size="12" fill="#999999">
+    OAB/MG 134.259
+  </text>
+</svg>

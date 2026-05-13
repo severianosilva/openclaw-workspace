@@ -1,0 +1,36 @@
+{"timestamp": "2026-03-02T00:00:04.326372", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-03-02T00:00:04.359598", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 255417947021566", "details": {"file": "device-list-255417947021566.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T00:00:04.360395", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 14380204826734", "details": {"file": "device-list-14380204826734.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T00:00:04.367401", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-03-02T00:00:04.368544", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-03-02T00:00:04.621904", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-03-02T00:00:04.622588", "level": "WARNING", "message": "\u26a0\ufe0f Verifica\u00e7\u00f5es falharam: whatsapp_credentials", "details": {}}
+{"timestamp": "2026-03-02T00:00:04.623178", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.199388", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.530306", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 255417947021566", "details": {"file": "device-list-255417947021566.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T02:00:05.530955", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 14380204826734", "details": {"file": "device-list-14380204826734.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T02:00:05.542906", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.563108", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.888795", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.889342", "level": "WARNING", "message": "\u26a0\ufe0f Verifica\u00e7\u00f5es falharam: whatsapp_credentials", "details": {}}
+{"timestamp": "2026-03-02T02:00:05.889612", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}
+{"timestamp": "2026-03-02T08:00:03.435618", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-03-02T08:00:03.577425", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 255417947021566", "details": {"file": "device-list-255417947021566.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T08:00:03.577997", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 83880828747982", "details": {"file": "device-list-83880828747982.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T08:00:03.578360", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 14380204826734", "details": {"file": "device-list-14380204826734.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T08:00:03.581495", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-03-02T08:00:03.583453", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-03-02T08:00:04.042937", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-03-02T08:00:04.043403", "level": "WARNING", "message": "\u26a0\ufe0f Verifica\u00e7\u00f5es falharam: whatsapp_credentials", "details": {}}
+{"timestamp": "2026-03-02T08:00:04.043651", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}
+{"timestamp": "2026-03-02T20:00:02.490671", "level": "INFO", "message": "=== INICIANDO AUDITORIA DE SEGURAN\u00c7A ===", "details": {}}
+{"timestamp": "2026-03-02T20:00:02.532039", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 255417947021566", "details": {"file": "device-list-255417947021566.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T20:00:02.532623", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 553186441079", "details": {"file": "device-list-553186441079.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T20:00:02.532898", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 83880828747982", "details": {"file": "device-list-83880828747982.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T20:00:02.533159", "level": "CRITICAL", "message": "Dispositivo n\u00e3o autorizado detectado: 14380204826734", "details": {"file": "device-list-14380204826734.json", "action": "REMOVER_IMEDIATAMENTE"}}
+{"timestamp": "2026-03-02T20:00:02.558262", "level": "WARNING", "message": "Arquivo de configura\u00e7\u00e3o foi modificado", "details": {"previous": "2f6c09bf2cb5e8a5", "current": "edd6dab05809c1d4"}}
+{"timestamp": "2026-03-02T20:00:02.562344", "level": "INFO", "message": "Integridade da configura\u00e7\u00e3o verificada", "details": {}}
+{"timestamp": "2026-03-02T20:00:02.582272", "level": "INFO", "message": "Sess\u00f5es ativas: 5", "details": {}}
+{"timestamp": "2026-03-02T20:00:03.094741", "level": "INFO", "message": "Gateway rodando com 1 processo(s)", "details": {}}
+{"timestamp": "2026-03-02T20:00:03.095478", "level": "WARNING", "message": "\u26a0\ufe0f Verifica\u00e7\u00f5es falharam: whatsapp_credentials", "details": {}}
+{"timestamp": "2026-03-02T20:00:03.095928", "level": "INFO", "message": "=== AUDITORIA CONCLU\u00cdDA ===", "details": {}}

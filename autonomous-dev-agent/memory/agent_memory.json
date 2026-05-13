@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "task_20260512_125057",
+      "request": "Criar API REST para tarefas",
+      "tasks": [
+        {
+          "type": "analysis",
+          "status": "done"
+        },
+        {
+          "type": "design",
+          "status": "done"
+        },
+        {
+          "type": "implementation",
+          "status": "pending"
+        },
+        {
+          "type": "testing",
+          "status": "pending"
+        }
+      ],
+      "timestamp": "2026-05-12 12:50:57.266705"
+    },
+    {
+      "id": "task_20260512_125147",
+      "request": "Criar API REST para tarefas com database",
+      "plan": {
+        "request": "Criar API REST para tarefas com database",
+        "complexity": "alta",
+        "estimated_time": 30,
+        "required_skills": [
+          "backend",
+          "database"
+        ]
+      },
+      "output": "api_generated.py",
+      "timestamp": "2026-05-12 12:51:47.802392"
+    }
+  ],
+  "agents": {},
+  "created": "2026-05-12 12:50:30.704829"
+}

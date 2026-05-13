@@ -1,0 +1,5 @@
+{
+  "status": "setup_pending",
+  "scheduler": "youtube_scheduler.bat",
+  "credentials_path": "C:\\Users\\User\\.openclaw\\workspace\\credentials"
+}

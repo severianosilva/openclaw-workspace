@@ -1,0 +1,41 @@
+{
+  "skill": "juridical-reminder-creator",
+  "version": "1.0.0",
+  "handler": "execute",
+  "inputs": {
+    "deadlines": {
+      "type": "array",
+      "required": true,
+      "description": "Lista de prazos identificados"
+    },
+    "process_number": {
+      "type": "string",
+      "required": true,
+      "description": "Número do processo associado"
+    },
+    "advance_notice_days": {
+      "type": "number",
+      "required": false,
+      "default": 3,
+      "description": "Dias de antecedência para o lembrete"
+    }
+  },
+  "outputs": {
+    "reminder_ids": {
+      "type": "array",
+      "description": "IDs dos lembretes criados"
+    },
+    "scheduled_reminders": {
+      "type": "array",
+      "description": "Detalhes dos lembretes agendados"
+    },
+    "total_reminders": {
+      "type": "number",
+      "description": "Total de lembretes criados"
+    },
+    "error": {
+      "type": "string",
+      "description": "Mensagem de erro, se houver"
+    }
+  }
+}

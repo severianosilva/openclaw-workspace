@@ -1,0 +1,36 @@
+{
+  "templates": {
+    "educacional": {
+      "name": "Educacional",
+      "description": "Roteiro para conteúdo educativo - foco em ensinar",
+      "structure": ["hook", "conceitos", "exemplos", "exercicio", "cta"],
+      "tone": "didático e prático",
+      "best_for": ["tutoriais", "aulas", "como fazer"],
+      "duration_ranges": ["5min", "10min", "15min"]
+    },
+    "entretenimento": {
+      "name": "Entretenimento",
+      "description": "Roteiro para storytelling e conteúdo divertido",
+      "structure": ["hook", "narrativa", "plot_twist", "moral", "cta"],
+      "tone": "conversacional e envolvente",
+      "best_for": ["vlogs", "histórias", "challenges"],
+      "duration_ranges": ["8min", "10min", "15min"]
+    },
+    "review": {
+      "name": "Review/Análise",
+      "description": "Roteiro para análise de produtos/serviços",
+      "structure": ["hook", "introducao", "pros_cons", "comparativo", "veredito", "cta"],
+      "tone": "crítico e confiável",
+      "best_for": ["reviews", "unboxings", "comparações"],
+      "duration_ranges": ["5min", "8min", "10min"]
+    },
+    "noticia": {
+      "name": "Notícia/Atualidade",
+      "description": "Roteiro para conteúdo noticioso e trends",
+      "structure": ["hook", "contexto", "desenvolvimento", "impacto", "cta"],
+      "tone": "informativo e atual",
+      "best_for": ["notícias", "tendências", "atualidades"],
+      "duration_ranges": ["5min", "8min"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Requirements para YouTube Video Agent
+# Instale com: pip install -r requirements.txt
+
+# TTS (Text-to-Speech)
+gtts>=2.5.0                    # Google Text-to-Speech (grátis)
+elevenlabs>=1.2.0             # ElevenLabs TTS (premium, mas tem free tier)
+
+# Vídeo e Áudio
+moviepy>=1.0.3                # Edição de vídeo
+pydub>=0.25.1                 # Manipulação de áudio
+ffmpeg-python>=0.2.0          # FFmpeg wrapper
+
+# Imagens
+pillow>=10.0.0                # PIL - manipulação de imagens
+numpy>=1.24.0                 # Processamento numérico
+
+# HTTP e API
+requests>=2.31.0              # HTTP requests
+
+# Utilitários
+tiktoken>=0.7.0               # Contagem de tokens
+python-dotenv>=1.0.0          # Variáveis de ambiente

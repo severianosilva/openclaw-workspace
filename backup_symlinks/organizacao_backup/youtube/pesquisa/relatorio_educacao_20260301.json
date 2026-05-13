@@ -1,0 +1,224 @@
+{
+  "nicho": "educacao",
+  "data_geracao": "2026-03-01T00:09:37.183463",
+  "tendencias": {
+    "nicho": "educacao",
+    "data_pesquisa": "2026-03-01T00:09:37.180857",
+    "topicos_em_alta": [
+      "aprender inglês rápido",
+      "cursos gratuitos online",
+      "dicas de estudo",
+      "carreira e crescimento",
+      "habilidades do futuro"
+    ],
+    "fonte": "Google Trends + YouTube Search"
+  },
+  "concorrencia": {
+    "nicho": "educacao",
+    "canais_analisados": [
+      "Canal Exemplo 1",
+      "Canal Exemplo 2",
+      "Canal Exemplo 3"
+    ],
+    "data_analise": "2026-03-01T00:09:37.181876",
+    "padroes_identificados": [
+      "Vídeos com hooks nos primeiros 5 segundos",
+      "Títulos com números e promessas específicas",
+      "Thumbnails com alto contraste e texto grande",
+      "Vídeos entre 7-15 minutos",
+      "Séries e playlists temáticas",
+      "Uso de Shorts como funil",
+      "CTA claro no meio e fim do vídeo"
+    ],
+    "oportunidades": [
+      "Conteúdo em português ainda tem lacunas vs inglês",
+      "Atualizações de conteúdo antigo (2024→2026)",
+      "Nicho específico dentro do nicho geral",
+      "Formato diferente (ex: documentário vs tutorial)",
+      "Abordagem mais prática/menos teórica"
+    ]
+  },
+  "ideias": [
+    {
+      "ideia": {
+        "id": 1,
+        "titulo_template": "Como {resultado} em {tempo} (sem {dificuldade})",
+        "status": "planejado",
+        "prioridade": "alta",
+        "data_geracao": "2026-03-01T00:09:37.181995"
+      },
+      "criterios": {
+        "volume_busca": "✅",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 1,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 2,
+        "titulo_template": "{número} {coisas} que {audiência} precisa saber em {ano}",
+        "status": "planejado",
+        "prioridade": "alta",
+        "data_geracao": "2026-03-01T00:09:37.182022"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 3,
+        "titulo_template": "O segredo que {autoridade} não te conta sobre {tópico}",
+        "status": "planejado",
+        "prioridade": "alta",
+        "data_geracao": "2026-03-01T00:09:37.182035"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 4,
+        "titulo_template": "Testei {coisa} por {tempo} e isso aconteceu",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182047"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 5,
+        "titulo_template": "{erro} que está te impedindo de {resultado}",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182057"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 6,
+        "titulo_template": "Guia completo de {tópico} para {audiência}",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182069"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "✅"
+      },
+      "score": 1,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 7,
+        "titulo_template": "{número} ferramentas gratuitas para {objetivo}",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182079"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 8,
+        "titulo_template": "A verdade sobre {tópico controverso}",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182089"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 9,
+        "titulo_template": "De {ponto_a} para {ponto_b} em {tempo}",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182129"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    },
+    {
+      "ideia": {
+        "id": 10,
+        "titulo_template": "O que eu faria se começasse {atividade} hoje",
+        "status": "planejado",
+        "prioridade": "média",
+        "data_geracao": "2026-03-01T00:09:37.182173"
+      },
+      "criterios": {
+        "volume_busca": "⚠️",
+        "competicao": "⚠️ Alta",
+        "atualidade": "⚠️",
+        "engajamento": "⚠️",
+        "evergreen": "⚠️ Temporário"
+      },
+      "score": 0,
+      "recomendacao": "🔴 REPENSAR - Baixa prioridade"
+    }
+  ],
+  "top_3_ideias": []
+}

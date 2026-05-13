@@ -1,0 +1,2 @@
+-rw-rw-r-- 1 severosa severosa 203M Feb 20 02:02 /home/severosa/organizacao/backup/backup_openclaw_2026-02-20_02-00-03.tar.gz
+-rw-rw-r-- 1 severosa severosa 102M Feb 16 02:11 /home/severosa/organizacao/backup/backup_openclaw_2026-02-16_02-00-36.tar.gz

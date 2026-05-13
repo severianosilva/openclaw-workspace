@@ -1,0 +1,86 @@
+PASTA DE CAPTURA E PROCESSAMENTO
+
+Esta pasta serve para capturar e processar informações de várias fontes:
+
+1. Monitoramento de Diário Oficial do Estado de Minas Gerais (diariamente)
+2. Verificação de e-mails (Gmail)
+3. Verificação de armazenamento em nuvem (Google Drive, OneDrive, Dropbox)
+4. Organização de processos jurídicos (separadamente para advocacia e servidor público)
+5. Controle de prazos e eventos importantes
+6. Processamento de mensagens de áudio recebidas via WhatsApp
+
+SISTEMA DE TRANSCRIÇÃO DE ÁUDIO PARA PORTUGUÊS BRASILEIRO
+
+Status do Sistema:
+- Conversão de áudio (OGG/Opus → WAV) via PyAV
+- Amplificação automática para áudios com volume baixo
+- Múltiplos motores de transcrição (Vosk → Whisper → Google STT)
+- Integração automática com WhatsApp
+- Novo script otimizado transcricao_qwen_ajudada.py com melhor detecção de fala e análise de volume
+- Melhor aproveitamento do Google STT com múltiplos idiomas portugueses (pt-BR, pt-PT, pt)
+
+Melhorias Implementadas:
+- Novo script de transcrição otimizado que primeiro analisa o volume do áudio para determinar se precisa de amplificação
+- Implementação de análise de volume básico para identificar conteúdo falado
+- Melhoria na conversão de formatos com PyAV para melhor compatibilidade
+- Melhor aproveitamento do Google STT com múltiplos idiomas portugueses
+- Sistema mais eficiente na detecção de fala clara versus ruído ou silêncio
+
+SOLUÇÃO PARA INATIVIDADE DO OPENCLAW
+
+Problema Identificado:
+- O chat OpenClaw (interface web) entra em inatividade, exigindo recarregar a aba do navegador
+
+Soluções Implementadas:
+- Configuração de sessão com tempo de inatividade estendido (7 dias)
+- Script JavaScript para manter conexão ativa (manter_conexao_ativa.js)
+- Página HTML com sistema de manutenção de conexão (keep_alive.html)
+- Configuração atualizada em /home/severosa/.openclaw/openclaw.json
+
+SISTEMA DE BACKUP AUTOMÁTICO
+
+Importância:
+- Protege todas as configurações e scripts desenvolvidos
+- Evita perda de trabalho em caso de problemas no sistema
+- Mantém histórico de configurações importantes
+
+Soluções Implementadas:
+- Script de backup completo (backup_openclaw.sh)
+- Configuração de backup automático diário às 2h da manhã
+- Armazenamento em /home/severosa/organizacao/backup/
+- Arquivos comprimidos em formato .tar.gz
+- Suporte para backup em nuvem (Google Drive, etc.) via RClone
+
+Arquivos Relacionados:
+- /home/severosa/organizacao/captura/backup_openclaw.sh
+- /home/severosa/organizacao/captura/configurar_backup_automatico.sh
+- /home/severosa/organizacao/captura/configurar_rclone_para_backup.sh
+- /home/severosa/organizacao/captura/INSTRUÇÕES_INSTALACAO_RCLONE.md
+- Backups salvos em /home/severosa/organizacao/backup/
+
+Para testar backup manualmente:
+  /home/severosa/organizacao/captura/backup_openclaw.sh
+
+Para verificar backups existentes:
+  ls -la /home/severosa/organizacao/backup/
+
+Para configurar backup em nuvem (Google Drive):
+  /home/severosa/organizacao/captura/configurar_rclone_para_backup.sh
+
+Para instalar todas as dependências necessárias:
+  Veja o arquivo: /home/severosa/organizacao/captura/INSTALACAO_DEPENDENCIAS.md
+
+Para envio automático de relatórios:
+  - Relatórios diários são automaticamente gerados e salvos
+  - Para envio por WhatsApp, é necessário configurar o gateway do OpenClaw
+  - Para envio por e-mail, é necessário configurar credenciais de e-mail
+  - Scripts de envio em: /home/severosa/organizacao/monitoramento/enviar_relatorio_diario.sh
+  - Documentação completa em: /home/severosa/organizacao/monitoramento/CONFIGURACAO_ENVIO_RELATORIOS.md
+
+Processo:
+1. Recebe algo novo -> Pasta de captura
+2. Revê diariamente -> Decide onde colocar
+3. Move para a pasta correta
+4. Marca como resolvido
+
+DICA: Tente não deixar nada acumular aqui por mais de 1 dia!

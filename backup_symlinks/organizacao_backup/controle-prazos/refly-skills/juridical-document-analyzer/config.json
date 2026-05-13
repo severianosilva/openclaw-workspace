@@ -1,0 +1,32 @@
+{
+  "skill": "juridical-document-analyzer",
+  "version": "1.0.0",
+  "handler": "execute",
+  "inputs": {
+    "document_content": {
+      "type": "string",
+      "required": true,
+      "description": "Conteúdo do documento a ser analisado"
+    },
+    "document_type": {
+      "type": "string",
+      "required": false,
+      "default": "generico",
+      "description": "Tipo do documento (petição, sentença, despacho, etc.)"
+    }
+  },
+  "outputs": {
+    "analysis_results": {
+      "type": "object",
+      "description": "Resultados da análise jurídica"
+    },
+    "document_type": {
+      "type": "string",
+      "description": "Tipo do documento analisado"
+    },
+    "error": {
+      "type": "string",
+      "description": "Mensagem de erro, se houver"
+    }
+  }
+}

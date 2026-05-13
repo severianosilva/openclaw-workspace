@@ -1,0 +1,48 @@
+{
+  "channel_id": "channel_20260512_132201",
+  "phase": "growth",
+  "content_calendar": {
+    "monday": {
+      "topic": "Curso de Renda Passiva em 2024",
+      "type": "main",
+      "status": "planned"
+    },
+    "wednesday": {
+      "topic": "Como Renda Passiva em 2024",
+      "type": "shorts",
+      "status": "planned"
+    },
+    "friday": {
+      "topic": "10 Dicas de Cripto em 2024",
+      "type": "main",
+      "status": "planned"
+    }
+  },
+  "monetization_tactics": [
+    "Focar em CPM alto (financas, negocios)",
+    "Criar Shorts diarios para crescimento rapido",
+    "Adicionar links de afiliado na descricao",
+    "Fazer videos de antes/depois (alto engajamento)",
+    "Usar titulos com numeros (7, 10, 5)",
+    "Publicar no horario de pico (18h)"
+  ],
+  "audience_growth": [
+    "Primeira semana: Shorts diarios",
+    "Semana 2-3: Videos longos 2x por semana",
+    "Semana 4+: Consistente 3x por semana",
+    "Engajar em comunidades do niche",
+    "Responder todos os comentarios"
+  ],
+  "revenue_projections": {
+    "month_1": 675.0,
+    "month_3": 1575.0,
+    "month_6": 2250.0,
+    "break_even_months": 3
+  },
+  "sprint_plan": {
+    "sprint_1": "Setup + 5 shorts + 2 videos",
+    "goal": "1000 subscribers",
+    "tactics": "Shorts virais + SEO",
+    "kpi": "CTR > 5%, Retencao > 50%"
+  }
+}

@@ -1,0 +1,123 @@
+Relatório de Monitoramento - 2026-02-23
+======================================
+
+- Executando verificação do Diário Oficial...
+[2026-02-23 08:00:05.907463] Iniciando verificação do Diário Oficial de MG...
+NOTA: Este é um script modelo. Para funcionar, é necessário:
+1. Acessar o site: https://www.jornalminasgerais.mg.gov.br/
+2. Implementar scraping ou usar API (se disponível)
+3. Configurar termos de busca (nome do usuário, números de processos, etc.)
+Resultado salvo em: /home/severosa/organizacao/monitoramento/diario-oficial/verificacao_2026-02-23.json
+AVISO: Este script requer implementação real com scraping ou API.
+
+- Executando verificação de e-mails...
+[2026-02-23 08:00:06.390972] Iniciando verificação de e-mails...
+NOTA: Este é um script modelo. Para funcionar, é necessário:
+1. Configurar credenciais de e-mail para Gmail (IMAP ou API OAuth2)
+2. Definir critérios de busca (palavras-chave, remetentes, etc.)
+3. Implementar conexão segura com o servidor de e-mail
+Resultado salvo em: /home/severosa/organizacao/monitoramento/email/verificacao_emails_2026-02-23.json
+AVISO: Este script requer credenciais de e-mail para funcionar.
+
+Para configurar o monitoramento de e-mails (Gmail), será necessário:
+- Habilitar IMAP no Gmail (Configurações > Encaminhamento e POP/IMAP)
+- Servidor IMAP: imap.gmail.com
+- Porta: 993 (SSL)
+- Nome de usuário: seu endereço de e-mail completo
+- Senha: senha do Gmail OU token de app (recomendado)
+- Alternativamente: credenciais OAuth2 para maior segurança
+
+- Executando verificação do Google Drive...
+[2026-02-23 08:00:06.629943] Iniciando verificação do Google Drive...
+NOTA: Este é um script modelo. Para funcionar, é necessário:
+1. Configurar credenciais OAuth 2.0 do Google (disponíveis conforme Severiano)
+2. Habilitar a API do Google Drive
+3. Implementar autenticação segura
+4. Definir pastas específicas para monitoramento
+Verificando pasta de processos jurídicos no Google Drive...
+NOTA: A verificação da pasta 'Processos-Juridicos/PDFs-Brutos' será implementada
+quando as credenciais do Google Drive estiverem configuradas.
+Esta pasta será monitorada para novos PDFs que devem ser analisados
+com OCR especializado e análise jurídica automatizada.
+Resultado salvo em: /home/severosa/organizacao/monitoramento/google-drive/verificacao_drive_2026-02-23.json
+AVISO: Este script requer credenciais OAuth do Google para funcionar.
+
+Para configurar o monitoramento do Google Drive, será necessário:
+- Utilizar as credenciais OAuth 2.0 já disponíveis
+- Instalar a biblioteca google-api-python-client: pip install google-api-python-client google-auth
+- Definir escopos de permissão apropriados
+- Implementar refresh automático de tokens de autenticação
+
+Para a funcionalidade de análise jurídica:
+- Criar pasta 'Processos-Juridicos/PDFs-Brutos' no Google Drive
+- Configurar OCR especializado para documentos jurídicos
+- Integrar com o sistema de anotações já implementado
+
+- Executando verificação do OneDrive...
+[2026-02-23 08:00:07.291630] Iniciando verificação do OneDrive...
+NOTA: Este é um script modelo. Para funcionar, é necessário:
+1. Configurar credenciais da API do Microsoft Graph
+2. Obter permissões para acessar o OneDrive
+3. Implementar autenticação OAuth 2.0 com Microsoft
+Resultado salvo em: /home/severosa/organizacao/monitoramento/onedrive/verificacao_onedrive_2026-02-23.json
+AVISO: Este script requer credenciais da API do Microsoft Graph para funcionar.
+
+Para configurar o monitoramento do OneDrive, será necessário:
+- Registrar aplicativo no Azure Active Directory
+- Obter ID do cliente, segredo do cliente e tenant ID
+- Instalar biblioteca msal: pip install msal requests
+- Configurar permissões para acessar o OneDrive (Files.Read.All)
+
+- Executando verificação do Dropbox...
+[2026-02-23 08:00:07.798372] Iniciando verificação do Dropbox...
+NOTA: Este é um script modelo. Para funcionar, é necessário:
+1. Configurar credenciais da API do Dropbox
+2. Obter permissões para acessar o Dropbox
+3. Implementar autenticação OAuth 2.0 com Dropbox
+Resultado salvo em: /home/severosa/organizacao/monitoramento/dropbox/verificacao_dropbox_2026-02-23.json
+AVISO: Este script requer credenciais da API do Dropbox para funcionar.
+
+Para configurar o monitoramento do Dropbox, será necessário:
+- Criar aplicativo no Dropbox Developers Console
+- Obter App Key e App Secret
+- Instalar biblioteca dropbox: pip install dropbox
+- Configurar permissões para acessar o Dropbox (files.metadata.read, files.content.read)
+
+- Executando verificação e transcrição de áudios recebidos...
+Verificando novos arquivos de áudio em /home/severosa/.openclaw/media/inbound...
+Processando áudio: d731d304-020a-4492-b0b8-d26158c7a125.ogg
+Gerando transcrição otimizada para: d731d304-020a-4492-b0b8-d26158c7a125.ogg
+Tentando transcrever: /home/severosa/.openclaw/media/inbound/d731d304-020a-4492-b0b8-d26158c7a125.ogg
+
+Resultado da transcrição:
+você já integrou ao sistema o código que eu te repassei
+Processando áudio: a4edbbc9-a40e-4251-aecb-114561d05f8b.ogg
+Gerando transcrição otimizada para: a4edbbc9-a40e-4251-aecb-114561d05f8b.ogg
+Tentando transcrever: /home/severosa/.openclaw/media/inbound/a4edbbc9-a40e-4251-aecb-114561d05f8b.ogg
+
+Resultado da transcrição:
+a primeira verifique se há os modelos se todos os modelos que você configurou estão funcionais a Nvidia acredito que ela configure api por modelo específico tão precisamos confirmar se há necessidade de gerar um Api para cada modelo gratuito e quanto aos esquilos que vamos implementar me passe uma lista dos esquilos mais importantes e mais úteis para o que temos trabalhado temos trabalhado até agora
+Processando áudio: cf3ff713-57d2-491c-8940-5028427c590f.ogg
+Gerando transcrição otimizada para: cf3ff713-57d2-491c-8940-5028427c590f.ogg
+Tentando transcrever: /home/severosa/.openclaw/media/inbound/cf3ff713-57d2-491c-8940-5028427c590f.ogg
+
+Resultado da transcrição:
+Olá você conseguiu concluir as configurações
+Processando áudio: a4edbbc9-a40e-4251-aecb-114561d05f8b.converted.wav
+Gerando transcrição otimizada para: a4edbbc9-a40e-4251-aecb-114561d05f8b.converted.wav
+Tentando transcrever: /home/severosa/.openclaw/media/inbound/a4edbbc9-a40e-4251-aecb-114561d05f8b.converted.wav
+
+Resultado da transcrição:
+a primeira verifique se há os modelos se todos os modelos que você configurou estão funcionais a Nvidia acredito que ela configure api por modelo específico tão precisamos confirmar se há necessidade de gerar um Api para cada modelo gratuito e quanto aos esquilos que vamos implementar me passe uma lista dos esquilos mais importantes e mais úteis para o que temos trabalhado temos trabalhado até agora
+Processando áudio: fb27fc7c-f9b1-427b-8d8c-84a9fc9ea212.ogg
+Gerando transcrição otimizada para: fb27fc7c-f9b1-427b-8d8c-84a9fc9ea212.ogg
+Tentando transcrever: /home/severosa/.openclaw/media/inbound/fb27fc7c-f9b1-427b-8d8c-84a9fc9ea212.ogg
+
+Resultado da transcrição:
+Então vamos instalar os 10 Skills que eu entendo que seja importante e também vamos testar todos os modelos da NVidia
+Verificação de áudio concluída.
+
+- Verificando atualizações pendentes nos controles de processos...
+Nenhuma atualização automática realizada (aguardando integração completa)
+
+Monitoramento diário concluído em Mon Feb 23 08:01:09 -03 2026

@@ -1,0 +1,101 @@
+{
+  "script_id": "script_20260512_132201",
+  "scenes": [
+    {
+      "id": 1,
+      "time": "00:00",
+      "duration": "30s",
+      "visual": "Hook screen with presenter face cam, energetic",
+      "audio": {
+        "voice": "enthusiastic, clear, Brazilian Portuguese",
+        "music": "upbeat corporate background, low volume",
+        "effects": [
+          "whoosh transitions",
+          "ding for emphasis"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "time": "00:30",
+      "duration": "80s",
+      "visual": "Screen recording with text overlay, b-roll footage",
+      "audio": {
+        "voice": "enthusiastic, clear, Brazilian Portuguese",
+        "music": "upbeat corporate background, low volume",
+        "effects": [
+          "whoosh transitions",
+          "ding for emphasis"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "time": "02:00",
+      "duration": "80s",
+      "visual": "Screen recording with text overlay, b-roll footage",
+      "audio": {
+        "voice": "enthusiastic, clear, Brazilian Portuguese",
+        "music": "upbeat corporate background, low volume",
+        "effects": [
+          "whoosh transitions",
+          "ding for emphasis"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "time": "05:00",
+      "duration": "80s",
+      "visual": "Screen recording with text overlay, b-roll footage",
+      "audio": {
+        "voice": "enthusiastic, clear, Brazilian Portuguese",
+        "music": "upbeat corporate background, low volume",
+        "effects": [
+          "whoosh transitions",
+          "ding for emphasis"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "time": "06:00",
+      "duration": "80s",
+      "visual": "Call to action screen, subscribe animation",
+      "audio": {
+        "voice": "enthusiastic, clear, Brazilian Portuguese",
+        "music": "upbeat corporate background, low volume",
+        "effects": [
+          "whoosh transitions",
+          "ding for emphasis"
+        ]
+      }
+    }
+  ],
+  "music": {
+    "track": "Upbeat Corporate",
+    "source": "YouTube Audio Library",
+    "duration": "full length",
+    "volume": "30%"
+  },
+  "visuals": [
+    "Presenter face cam (intro/conclusion)",
+    "Screen recording with cursor",
+    "Text animations for key points",
+    "B-roll footage (stock)",
+    "Simple motion graphics"
+  ],
+  "voiceover": {
+    "voice": "male/female Brazilian Portuguese",
+    "speed": "1.1x",
+    "tone": "energetic, educational",
+    "pauses": "natural breathing points"
+  },
+  "editing_instructions": [
+    "Cut on action for dynamic feel",
+    "Add subtle zoom on key points",
+    "Include subscribe animation at 25% and end",
+    "Match cuts to beat of music",
+    "Color grade: slightly saturated"
+  ]
+}

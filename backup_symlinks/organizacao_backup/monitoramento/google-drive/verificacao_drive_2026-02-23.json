@@ -1,0 +1,20 @@
+{
+  "data_verificacao": "2026-02-23T08:00:06.630890",
+  "arquivos_verificados": 0,
+  "alteracoes_detectadas": [],
+  "pastas_monitoradas": [
+    "Organização/Advocacia",
+    "Organização/Servidor-Público",
+    "Organização/Comissão-Processante",
+    "Jurídico/Processos-Ativos",
+    "Jurídico/Processos-Juridicos/PDFs-Brutos"
+  ],
+  "status": "modelo_nao_implementado",
+  "funcionalidades_agendadas": [
+    "Monitoramento de novos PDFs na pasta Jurídico/Processos-Juridicos/PDFs-Brutos",
+    "Aplicação de OCR especializado em documentos jurídicos",
+    "Análise jurídica automatizada do conteúdo",
+    "Associação automática ao processo correspondente",
+    "Geração de anotações jurídicas"
+  ]
+}

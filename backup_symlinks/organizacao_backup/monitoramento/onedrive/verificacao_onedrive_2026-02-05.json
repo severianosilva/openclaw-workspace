@@ -1,0 +1,12 @@
+{
+  "data_verificacao": "2026-02-05T14:19:43.174480",
+  "arquivos_verificados": 0,
+  "alteracoes_detectadas": [],
+  "pastas_monitoradas": [
+    "Organizacao/Advocacia",
+    "Organizacao/Servidor-Publico",
+    "Organizacao/Comissao-Processante",
+    "Juridico/Processos-Ativos"
+  ],
+  "status": "modelo_nao_implementado"
+}

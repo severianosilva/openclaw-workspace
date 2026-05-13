@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo preto -->
+  <rect width="64" height="64" fill="#1A1A1A" rx="8"/>
+  <!-- Balança dourada -->
+  <g transform="translate(16,16)">
+    <path d="M24 12 L24 24" stroke="#C4A484" stroke-width="2"/>
+    <path d="M16 12 L32 12" stroke="#C4A484" stroke-width="2"/>
+    <circle cx="16" cy="12" r="8" fill="#C4A484"/>
+    <circle cx="32" cy="12" r="8" fill="#C4A484"/>
+  </g>
+</svg>

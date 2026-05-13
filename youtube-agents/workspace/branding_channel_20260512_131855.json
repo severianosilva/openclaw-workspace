@@ -1,0 +1,44 @@
+{
+  "channel_id": "channel_20260512_131855",
+  "logo": {
+    "prompt": "minimalist logo for Money Empire BR, modern, professional, blue gradient, simple icon",
+    "style": "flat design",
+    "colors": "blue, white, dark gray",
+    "size": "800x800"
+  },
+  "banner": {
+    "prompt": "YouTube banner for Money Empire BR, financas theme, professional, clean layout, 2560x1440",
+    "elements": [
+      "channel name",
+      "tagline",
+      "brand colors"
+    ],
+    "text_spacing": "safe area on right"
+  },
+  "color_palette": {
+    "primary": "#ea4335",
+    "secondary": "#4285f4",
+    "accent": "#fbab00"
+  },
+  "fonts": {
+    "title": "Roboto Bold",
+    "body": "Roboto Regular",
+    "thumbnail": "Anton, Oswald"
+  },
+  "thumbnail_template": {
+    "layout": "face on left, text on right",
+    "colors": {
+      "primary": "#ea4335",
+      "secondary": "#4285f4",
+      "accent": "#fbab00"
+    },
+    "elements": [
+      "close-up face reaction (shock/surprise)",
+      "large bold text (4-6 words)",
+      "number badge (optional)",
+      "brand color background"
+    ],
+    "dimensions": "1280x720",
+    "safe_zone": "center 80%"
+  }
+}

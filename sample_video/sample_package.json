@@ -1,0 +1,28 @@
+{
+  "script": {
+    "titulo": "3 M\u00e9todos para Ganhar Dinheiro Online em 2026",
+    "duracao": "60 segundos",
+    "cena_1": {
+      "tempo": "0-10s",
+      "texto": "Voc\u00ea j\u00e1 pensou em ganhar dinheiro sem sair de casa?",
+      "imagem": "home office"
+    },
+    "cena_2": {
+      "tempo": "10-30s",
+      "texto": "M\u00e9todo 1: Freelance em alta demanda. M\u00e9todo 2: Afiliados. M\u00e9todo 3: Cursos digitais.",
+      "imagem": "trabalho online"
+    },
+    "cena_3": {
+      "tempo": "30-60s",
+      "texto": "Comece hoje! Inscreva-se e ative o sininho.",
+      "imagem": "inscri\u00e7\u00e3o"
+    }
+  },
+  "audio": "C:\\Users\\User\\.openclaw\\workspace\\sample_video\\sample_audio.mp3",
+  "images": [
+    "C:\\Users\\User\\.openclaw\\workspace\\sample_video\\sample_0.jpg",
+    "C:\\Users\\User\\.openclaw\\workspace\\sample_video\\sample_1.jpg",
+    "C:\\Users\\User\\.openclaw\\workspace\\sample_video\\sample_2.jpg"
+  ],
+  "ready_for_render": true
+}

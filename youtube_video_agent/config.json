@@ -1,0 +1,36 @@
+{
+  "tts": {
+    "provider": "gtts",
+    "language": "pt-BR",
+    "slow": false,
+    "fallback_provider": "elevenlabs"
+  },
+  "stock_images": {
+    "sources": [
+      "https://source.unsplash.com/{width}x{height}/?{query}",
+      "https://picsum.photos/{width}/{height}"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "timeout": 10
+  },
+  "video_render": {
+    "fps": 24,
+    "codec": "libx264",
+    "audio_codec": "aac",
+    "bitrate": "5000k",
+    "preset": "medium",
+    "audio_bitrate": "192k"
+  },
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "primary_color": [25, 25, 110],
+    "font_size": 70
+  },
+  "subtitles": {
+    "max_chars_per_line": 42,
+    "font_size": 40,
+    "position": "bottom"
+  }
+}

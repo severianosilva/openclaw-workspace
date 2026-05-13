@@ -1,0 +1,50 @@
+{
+  "description": "Projetos completos open source para producao de videos YouTube",
+  "projects_verified": [
+    {
+      "name": "Video Maker (Filipe Deschamps)",
+      "repo": "https://github.com/filipedeschamps/video-maker",
+      "features": [
+        "Gera videos automatizados",
+        "Integra com YouTube API",
+        "Open source completo",
+        "Node.js"
+      ],
+      "status": "ativo",
+      "setup": "npm install + configure YouTube API"
+    },
+    {
+      "name": "LTX-2 Video",
+      "repo": "https://github.com/Lightricks/LTX-Video",
+      "features": [
+        "IA para geracao de videos",
+        "4K ate 50 FPS",
+        "Texto para video",
+        "Rodando localmente"
+      ],
+      "status": "ativo",
+      "setup": "Python + model download"
+    }
+  ],
+  "tools_free": {
+    "desktop": [
+      "CapCut - Editor completo",
+      "DaVinci Resolve - Profissional",
+      "OBS Studio - Gravacao",
+      "Audacity - Audio"
+    ],
+    "online": [
+      "Clipchamp - Web editor",
+      "Canva Video - Templates",
+      "Runway ML - Basico gratis"
+    ]
+  },
+  "steps_to_use": [
+    "1. Escolha projeto do GitHub",
+    "2. Clone repositorio",
+    "3. Siga README",
+    "4. Configure credenciais YouTube",
+    "5. Execute automacao",
+    "6. Monitore resultados"
+  ]
+}

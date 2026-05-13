@@ -1,0 +1,22 @@
+{
+  "data_verificacao": "2026-03-02T08:00:03.636000",
+  "emails_verificados": 0,
+  "emails_relevantes": [],
+  "termos_pesquisados": [
+    "processo",
+    "jurídico",
+    "audiência",
+    "prazo",
+    "sentença",
+    "comissão",
+    "pad",
+    "investigação",
+    "sindicância",
+    "administração"
+  ],
+  "contas_monitoradas": [
+    "advocacia@seuemail.com",
+    "analista@seuemail.com"
+  ],
+  "status": "modelo_nao_implementado"
+}

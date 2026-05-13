@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# Script de configuração para integração com o Discord
+
+echo "=================================================="
+echo "CONFIGURAÇÃO DA INTEGRAÇÃO COM O DISCORD"
+echo "=================================================="
+echo ""
+
+echo "Para integrar o sistema jurídico automatizado com o Discord, siga estes passos:"
+echo ""
+
+echo "PASSO 1: Criar um bot no Discord"
+echo "-----------------------------"
+echo "1. Acesse o Discord Developer Portal em https://discord.com/developers/applications"
+echo "2. Clique em 'New Application'"
+echo "3. Dê um nome à aplicação (ex: 'SistemaJuridicoBot')"
+echo "4. Na página da aplicação, clique em 'Bot' no menu lateral"
+echo "5. Clique em 'Add Bot' e confirme"
+echo "6. Copie o TOKEN do bot (será necessário para a próxima etapa)"
+echo ""
+
+echo "PASSO 2: Configurar as permissões do bot"
+echo "---------------------------------------"
+echo "1. No painel do bot, vá para 'Privileged Gateway Intents'"
+echo "2. Habilite 'MESSAGE CONTENT INTENT' para que o bot possa ler mensagens"
+echo ""
+
+echo "PASSO 3: Convidar o bot para um servidor"
+echo "----------------------------------------"
+echo "1. No painel da aplicação, clique em 'OAuth2' > 'URL Generator'"
+echo "2. Em 'SCOPES', selecione 'bot'"
+echo "3. Em 'BOT PERMISSIONS', selecione:"
+echo "   - View Channels"
+echo "   - Send Messages"
+echo "   - Read Message History"
+echo "   - Embed Links"
+echo "   - Attach Files (opcional)"
+echo "4. Copie a URL gerada e cole no navegador para convidar o bot"
+echo ""
+
+echo "PASSO 4: Configurar o token no sistema"
+echo "-------------------------------------"
+echo "Depois de obter o token do bot, salve-o em um arquivo seguro:"
+echo "echo 'SEU_TOKEN_AQUI' > ~/.discord_token"
+echo "chmod 600 ~/.discord_token"
+echo ""
+
+echo "PASSO 5: Instalar dependências"
+echo "----------------------------"
+echo "pip3 install discord.py"
+echo ""
+
+echo "PASSO 6: Executar o bot"
+echo "--------------------"
+echo "python3 integracao_discord.py \$(cat ~/.discord_token)"
+echo ""
+
+echo "COMANDOS DISPONÍVEIS NO DISCORD:"
+echo "------------------------------"
+echo "!status - Mostra o status do sistema jurídico automatizado"
+echo "!processos [tipo] - Lista os processos (tipos: advocacia, servidor, todos)"
+echo "!lembretes [dias] - Lista os lembretes para os próximos dias"
+echo ""
+
+echo "NOTA IMPORTANTE:"
+echo "---------------"
+echo "O email attention_agent@agentmail.to pode ser usado para configurar"
+echo "notificações do sistema jurídico automatizado para serem encaminhadas"
+echo "ao Discord via sistemas de integração como Zapier ou Integromat."
+echo ""
+
+echo "=================================================="
+echo "CONFIGURAÇÃO FINALIZADA"
+echo "=================================================="

@@ -1,0 +1,66 @@
+{
+  "titulo": "3 M\u00e9todos Profissionais para Ganhar Dinheiro Online",
+  "estilo": "professional",
+  "duracao": "180 segundos",
+  "cenas": [
+    {
+      "tempo": "0-5s",
+      "tipo": "intro",
+      "elementos": [
+        "logo animado",
+        "m\u00fasica de fundo",
+        "t\u00edtulo cinematogr\u00e1fico"
+      ]
+    },
+    {
+      "tempo": "5-60s",
+      "tipo": "conteudo",
+      "elementos": [
+        "voiceover profissional",
+        "transi\u00e7\u00f5es suaves",
+        "gr\u00e1ficos animados"
+      ]
+    },
+    {
+      "tempo": "60-120s",
+      "tipo": "demonstracao",
+      "elementos": [
+        "telas gravadas",
+        "zoom em detalhes",
+        "setas e destaques"
+      ]
+    },
+    {
+      "tempo": "120-180s",
+      "tipo": "encerramento",
+      "elementos": [
+        "CTA profissional",
+        "anima\u00e7\u00e3o de inscri\u00e7\u00e3o",
+        "m\u00fasica de encerramento"
+      ]
+    }
+  ],
+  "voiceover": {
+    "tom": "profissional",
+    "velocidade": "normal",
+    "estilo": "conversacional"
+  },
+  "design": {
+    "paleta": [
+      "#1a1a2e",
+      "#16213e",
+      "#0f3460",
+      "#e94560"
+    ],
+    "fontes": [
+      "Montserrat",
+      "Roboto",
+      "Open Sans"
+    ],
+    "transicoes": [
+      "fade",
+      "slide",
+      "zoom"
+    ]
+  }
+}

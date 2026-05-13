@@ -1,0 +1,36 @@
+{
+  "skill": "juridical-ocr-processor",
+  "version": "1.0.0",
+  "handler": "execute",
+  "inputs": {
+    "document_path": {
+      "type": "string",
+      "required": true,
+      "description": "Caminho para o documento a ser processado"
+    },
+    "preferred_engine": {
+      "type": "string",
+      "required": false,
+      "default": "tesseract",
+      "description": "Motor OCR preferido (tesseract, qwen-vl, ambos)"
+    }
+  },
+  "outputs": {
+    "extracted_text": {
+      "type": "string",
+      "description": "Texto extraído do documento"
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Pontuação de confiança do OCR (0-1)"
+    },
+    "processing_method": {
+      "type": "string",
+      "description": "Método de processamento usado"
+    },
+    "error": {
+      "type": "string",
+      "description": "Mensagem de erro, se houver"
+    }
+  }
+}

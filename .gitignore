@@ -1,0 +1,16 @@
+# Large backup files - keep on external drive
+*.tar
+*.tar.gz
+*.mp3
+
+# Heavy media files
+*.mp4
+*.mov
+*.avi
+
+# Backup archives
+backup_*.tar
+*.backup
+
+# Keep symlinks pointing to external drive
+!backup_symlinks/
