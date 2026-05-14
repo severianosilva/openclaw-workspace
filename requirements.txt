@@ -1,0 +1,6 @@
+gradio
+torch
+torchvision
+torchaudio
+transformers
+diffusers
